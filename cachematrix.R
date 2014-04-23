@@ -7,14 +7,17 @@
 ##
 ## Details: (with apologies for verbosity, trying to understand it all myself)
 	# 1. Declare a function that takes a matrix x as an argument
-	# 2. Initalize variable matrix m as null
-	# 3. Create a set "method" that gets the argument passed to 
-	#	the function (x)
-	# 4. Create a get "method" that ... (and uses x how ?)
-	# 5. Create a setinvert "method" that inverts a square matrix 
-	#	using solve()
+	# 2. Initalize variable matrix m as null 
+	# 3. Create a set "method" that effectively resets m to null and persists
+	#	(caches) both m and x.  Used to start over, but not employed in
+	#	this particular assignment.
+	# 4. Create a get "method" that simply reads the input matrix x
+	# 5. Create a setinverse "method" that inverts a square matrix 
+	#	using solve() {from base package}
+	# 6. Create a getinverse "method" that tries to simply read the
+	#	inverse matrix m
 	# 6. Returns a list of these functions as a factory of sorts to
-	#	make "cacheable" matrices which have these functions
+	#	make "cacheable" matrices (lists) which have these functions
 
 ## Arguments:	matrix 
 ##
