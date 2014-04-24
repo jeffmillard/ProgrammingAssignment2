@@ -56,7 +56,7 @@ makeCacheMatrix <- function(x = matrix()) {
 	#   m in the parent environment of the function
 	setinverse <- function(solve) m <<- solve
 	
-	# define the "getinvert" function, which simply tries to retrieve m
+	# define the "getinverse" function, which simply tries to retrieve m
 	# thus returning either a cached matrix or NULL
 	getinverse <- function() m
 	
