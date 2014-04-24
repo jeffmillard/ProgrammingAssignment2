@@ -3,7 +3,7 @@
 ## -----------------------------------------------------------------------------
 ## Description:	Function that results in a list of functions
 ##			for storing and retrieving a matrix and its inverse
-##			resulting a a matrix "object" with those functions
+##			resulting a matrix "object" with those functions
 ##
 ## Details: (with apologies for verbosity, trying to understand it all myself)
 	# 1. Declare a function that takes a matrix x as an argument
