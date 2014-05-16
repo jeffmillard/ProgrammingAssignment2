@@ -87,7 +87,7 @@ makeCacheMatrix <- function(x = matrix()) {
 	#		setinverse() function from makeCacheMatrix 
 	# 4. Return the inverted matrix 
 
-## Arguments:	"matrix" (list) created by makeCacheMatrix()
+## Arguments:	"matrix" (a list, actually) created by makeCacheMatrix()
 ##
 ## Returns: 	Matrix inverse of argument
 ##
